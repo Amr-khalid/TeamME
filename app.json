@@ -1,0 +1,67 @@
+{
+  "expo": {
+    "name": "TEAM ME PRO",
+    "slug": "team-me-pro",
+    "version": "2.5.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "icon": "./assets/icon.png",
+    "description": "TEAM ME PRO - Smart Team Matchmaking & Tournament Generator",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teamme.pro",
+      "buildNumber": "1",
+      "icon": "./assets/icon.png"
+    },
+    "android": {
+      "package": "com.teamme.pro",
+      "versionCode": 1,
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#000000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "androidStatusBar": {
+      "translucent": true,
+      "backgroundColor": "#00000000"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#000000"
+        }
+      ],
+      "expo-status-bar",
+      "expo-audio"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "1c9c4c84-a4d5-46cd-8756-2e9cdeb1240b"
+      }
+    },
+    "owner": "amr-khalid",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/1c9c4c84-a4d5-46cd-8756-2e9cdeb1240b"
+    }
+  }
+}
