@@ -246,3 +246,6 @@
 ### [Commit #82] - feat(audio): add background ambient audio option with volume control
 *Timestamp: 2026-08-17T20:08:37.268Z*
 
+### [Commit #83] - refactor(hooks): create custom useHaptics and useSound hooks
+*Timestamp: 2026-08-17T20:09:37.637Z*
+
