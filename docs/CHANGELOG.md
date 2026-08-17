@@ -93,3 +93,6 @@
 ### [Commit #31] - feat(shards): add dynamic touch responder overlay to hexagonal SVG shards
 *Timestamp: 2026-08-17T19:17:20.147Z*
 
+### [Commit #32] - perf(list): implement flat list windowing for extensive player rosters
+*Timestamp: 2026-08-17T19:18:20.488Z*
+
