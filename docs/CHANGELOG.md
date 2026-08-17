@@ -522,3 +522,6 @@
 ### [Commit #56] - style(shards): add brushed silver gradient stroke to hero draft shard
 *Timestamp: 2026-08-17T22:14:33.766Z*
 
+### [Commit #57] - perf(events): throttle pan responder move events for buttery smooth 60fps
+*Timestamp: 2026-08-17T22:15:19.196Z*
+
