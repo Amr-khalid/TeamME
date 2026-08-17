@@ -525,3 +525,6 @@
 ### [Commit #57] - perf(events): throttle pan responder move events for buttery smooth 60fps
 *Timestamp: 2026-08-17T22:15:19.196Z*
 
+### [Commit #58] - feat(draft): add captain pick and coin toss alternative drafting modes
+*Timestamp: 2026-08-17T22:16:04.698Z*
+
