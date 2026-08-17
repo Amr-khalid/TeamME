@@ -63,3 +63,6 @@
 ### [Commit #21] - feat(history): persist draft rosters and tournament histories in AsyncStorage
 *Timestamp: 2026-08-17T19:07:16.819Z*
 
+### [Commit #22] - style(typography): standardize serif and sans-serif cross-platform fallbacks
+*Timestamp: 2026-08-17T19:08:17.134Z*
+
