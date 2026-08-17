@@ -465,3 +465,6 @@
 ### [Commit #37] - style(cards): standardize card border radius and subtle inner shadow
 *Timestamp: 2026-08-17T22:00:09.862Z*
 
+### [Commit #38] - refactor(theme): consolidate theme tokens for manga white and cyber dark
+*Timestamp: 2026-08-17T22:00:55.279Z*
+
