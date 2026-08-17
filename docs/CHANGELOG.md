@@ -399,3 +399,6 @@
 ### [Commit #15] - refactor(tournament): extract bracket node renderer into reusable component
 *Timestamp: 2026-08-17T21:43:28.429Z*
 
+### [Commit #16] - feat(generate): add position-weighted draft balancing for soccer and esports
+*Timestamp: 2026-08-17T21:44:13.954Z*
+
