@@ -468,3 +468,6 @@
 ### [Commit #38] - refactor(theme): consolidate theme tokens for manga white and cyber dark
 *Timestamp: 2026-08-17T22:00:55.279Z*
 
+### [Commit #39] - feat(locale): support instant language toggle between Arabic and English
+*Timestamp: 2026-08-17T22:01:40.772Z*
+
