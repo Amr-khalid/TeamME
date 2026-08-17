@@ -510,3 +510,6 @@
 ### [Commit #52] - feat(history): add match deletion and clear history vault confirmation modal
 *Timestamp: 2026-08-17T22:11:32.123Z*
 
+### [Commit #53] - style(modal): polish floating bottom action sheets with frosted glass blur
+*Timestamp: 2026-08-17T22:12:17.530Z*
+
