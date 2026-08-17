@@ -174,3 +174,6 @@
 ### [Commit #58] - style(countdown): enhance holographic countdown typography with glowing halo
 *Timestamp: 2026-08-17T19:44:29.401Z*
 
+### [Commit #59] - feat(draft): add captain pick and coin toss game modes
+*Timestamp: 2026-08-17T19:45:29.741Z*
+
