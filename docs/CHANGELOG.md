@@ -330,3 +330,6 @@
 ### [Commit #110] - style(glow): enhance ambient breathing glow wave with sine easing curve
 *Timestamp: 2026-08-17T20:36:46.520Z*
 
+### [Commit #111] - feat(tournament): support 4, 8, 16, and 32 participant bracket sizes
+*Timestamp: 2026-08-17T20:37:46.850Z*
+
