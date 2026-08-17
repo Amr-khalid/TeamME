@@ -255,3 +255,6 @@
 ### [Commit #85] - feat(bracket): add match winner auto-advance to next tournament round
 *Timestamp: 2026-08-17T20:11:38.280Z*
 
+### [Commit #86] - perf(svg): precompute SVG path coordinates outside of render loop
+*Timestamp: 2026-08-17T20:12:38.616Z*
+
