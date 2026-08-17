@@ -507,7 +507,7 @@ export function HomeScreen() {
           style={[styles.touchAreaHero, { height: Y1_APEX }]}
         >
           <Text style={styles.pureTextHero}>
-            {lang === 'ar' ? 'توليد الفرق' : 'MATCH DRAFT'}
+            {lang === 'ar' ? '' : 'MATCH DRAFT'}
           </Text>
         </TouchableOpacity>
 
@@ -518,7 +518,7 @@ export function HomeScreen() {
           style={[styles.touchAreaRoster, { top: Y1, height: Y2_APEX - Y1 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'قائمة اللاعبين' : 'SQUAD ROSTER'}
+            {lang === 'ar' ? '' : 'SQUAD ROSTER'}
           </Text>
         </TouchableOpacity>
 
@@ -529,7 +529,7 @@ export function HomeScreen() {
           style={[styles.touchAreaFinger, { top: Y1, height: Y2_APEX - Y1 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'قرعة الأصابع' : 'FINGER ARENA'}
+            {lang === 'ar' ? '' : 'FINGER ARENA'}
           </Text>
         </TouchableOpacity>
 
@@ -540,7 +540,7 @@ export function HomeScreen() {
           style={[styles.touchAreaOracle, { top: Y2, height: Y3_APEX - Y2 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'عرّاف القرعة' : 'ORACLE WHEEL'}
+            {lang === 'ar' ? '' : 'ORACLE WHEEL'}
           </Text>
         </TouchableOpacity>
 
@@ -551,7 +551,7 @@ export function HomeScreen() {
           style={[styles.touchAreaTourn, { top: Y2, height: Y3_APEX - Y2 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'شجرة البطولة' : 'TOURNAMENT'}
+            {lang === 'ar' ? '' : 'TOURNAMENT'}
           </Text>
         </TouchableOpacity>
 
@@ -562,7 +562,7 @@ export function HomeScreen() {
           style={[styles.touchAreaHistory, { top: Y3, height: Y4 - Y3 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'سجل التشكيلات' : 'HISTORY VAULT'}
+            {lang === 'ar' ? '' : 'HISTORY VAULT'}
           </Text>
         </TouchableOpacity>
 
@@ -573,7 +573,7 @@ export function HomeScreen() {
           style={[styles.touchAreaSettings, { top: Y3, height: Y4 - Y3 }]}
         >
           <Text style={styles.pureTextShard}>
-            {lang === 'ar' ? 'الإعدادات' : 'SETTINGS'}
+            {lang === 'ar' ? '' : 'SETTINGS'}
           </Text>
         </TouchableOpacity>
 
