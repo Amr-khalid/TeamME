@@ -459,3 +459,6 @@
 ### [Commit #35] - perf(bundle): eliminate unused assets to reduce final APK bundle footprint
 *Timestamp: 2026-08-17T21:58:38.891Z*
 
+### [Commit #36] - feat(export): add WhatsApp match roster export with formatted markdown
+*Timestamp: 2026-08-17T21:59:24.315Z*
+
