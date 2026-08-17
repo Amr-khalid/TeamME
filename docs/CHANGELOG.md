@@ -33,3 +33,6 @@
 ### [Commit #11] - feat(members): implement quick roster player search and role filtering
 *Timestamp: 2026-08-17T18:57:13.543Z*
 
+### [Commit #12] - style(buttons): harmonize tactile press feedback with neon outline glow
+*Timestamp: 2026-08-17T18:58:13.861Z*
+
