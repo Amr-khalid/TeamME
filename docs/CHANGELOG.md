@@ -105,3 +105,6 @@
 ### [Commit #35] - style(reticle): add tactical crosshair corners to laser target lock
 *Timestamp: 2026-08-17T19:21:21.506Z*
 
+### [Commit #36] - feat(pairs): add dual-laser plasma connection arcs between paired fingers
+*Timestamp: 2026-08-17T19:22:21.835Z*
+
