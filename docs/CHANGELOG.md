@@ -423,3 +423,6 @@
 ### [Commit #23] - style(history): design history vault cards with metallic gradient borders
 *Timestamp: 2026-08-17T21:49:33.246Z*
 
+### [Commit #24] - perf(history): lazy load match records with paginated list windowing
+*Timestamp: 2026-08-17T21:50:18.680Z*
+
