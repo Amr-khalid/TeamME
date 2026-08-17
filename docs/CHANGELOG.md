@@ -162,3 +162,6 @@
 ### [Commit #54] - feat(tournament): add double elimination bracket with loser bracket progression
 *Timestamp: 2026-08-17T19:40:27.921Z*
 
+### [Commit #55] - style(borders): refine frosted glass border highlights and subtle inner glow
+*Timestamp: 2026-08-17T19:41:28.348Z*
+
