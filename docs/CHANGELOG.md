@@ -180,3 +180,6 @@
 ### [Commit #60] - refactor(state): consolidate match generation state in AppDataContext
 *Timestamp: 2026-08-17T19:46:30.064Z*
 
+### [Commit #61] - perf(rendering): memoize shard polygons with React.memo
+*Timestamp: 2026-08-17T19:47:30.383Z*
+
