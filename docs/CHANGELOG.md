@@ -462,3 +462,6 @@
 ### [Commit #36] - feat(export): add WhatsApp match roster export with formatted markdown
 *Timestamp: 2026-08-17T21:59:24.315Z*
 
+### [Commit #37] - style(cards): standardize card border radius and subtle inner shadow
+*Timestamp: 2026-08-17T22:00:09.862Z*
+
