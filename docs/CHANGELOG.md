@@ -183,3 +183,6 @@
 ### [Commit #61] - perf(rendering): memoize shard polygons with React.memo
 *Timestamp: 2026-08-17T19:47:30.383Z*
 
+### [Commit #62] - style(roster): add role-based badges for goalkeeper, defender, and forward
+*Timestamp: 2026-08-17T19:48:30.700Z*
+
