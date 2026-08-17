@@ -402,3 +402,6 @@
 ### [Commit #16] - feat(generate): add position-weighted draft balancing for soccer and esports
 *Timestamp: 2026-08-17T21:44:13.954Z*
 
+### [Commit #17] - style(generate): design team jersey color preview chips with active indicators
+*Timestamp: 2026-08-17T21:44:59.479Z*
+
