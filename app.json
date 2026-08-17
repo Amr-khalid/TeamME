@@ -6,16 +6,31 @@
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
     "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
     "description": "TEAM ME PRO - Smart Team Matchmaking & Tournament Generator",
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.teamme.pro",
       "buildNumber": "1",
-      "icon": "./assets/icon.png"
+      "icon": "./assets/icon.png",
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      }
     },
     "android": {
       "package": "com.teamme.pro",
       "versionCode": 1,
+      "splash": {
+        "image": "./assets/splash.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#000000"
+      },
       "permissions": [
         "android.permission.RECORD_AUDIO",
         "android.permission.MODIFY_AUDIO_SETTINGS",
