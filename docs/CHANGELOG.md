@@ -426,3 +426,6 @@
 ### [Commit #24] - perf(history): lazy load match records with paginated list windowing
 *Timestamp: 2026-08-17T21:50:18.680Z*
 
+### [Commit #25] - feat(settings): add sound volume slider and haptic feedback intensity switch
+*Timestamp: 2026-08-17T21:51:04.163Z*
+
