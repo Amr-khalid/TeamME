@@ -387,3 +387,6 @@
 ### [Commit #11] - style(oracle): enhance center pointer pin shadow for 3D elevation depth
 *Timestamp: 2026-08-17T21:40:26.706Z*
 
+### [Commit #12] - perf(oracle): optimize rotation physics easing curve on deceleration
+*Timestamp: 2026-08-17T21:41:12.108Z*
+
