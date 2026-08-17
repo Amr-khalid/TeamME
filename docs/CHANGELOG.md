@@ -390,3 +390,6 @@
 ### [Commit #12] - perf(oracle): optimize rotation physics easing curve on deceleration
 *Timestamp: 2026-08-17T21:41:12.108Z*
 
+### [Commit #13] - feat(tournament): add automatic bye round assignment for odd participant counts
+*Timestamp: 2026-08-17T21:41:57.567Z*
+
