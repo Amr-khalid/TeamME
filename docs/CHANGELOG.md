@@ -414,3 +414,6 @@
 ### [Commit #20] - style(members): add role badges for goalkeeper, defender, midfielder, and striker
 *Timestamp: 2026-08-17T21:47:16.874Z*
 
+### [Commit #21] - refactor(members): simplify member state mutations in AppDataContext
+*Timestamp: 2026-08-17T21:48:02.301Z*
+
