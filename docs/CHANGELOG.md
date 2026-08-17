@@ -453,3 +453,6 @@
 ### [Commit #33] - refactor(navigation): synchronize active tab state across home shards and bottom bar
 *Timestamp: 2026-08-17T21:57:08.004Z*
 
+### [Commit #34] - style(bottombar): add glowing active tab indicator with spring damping
+*Timestamp: 2026-08-17T21:57:53.434Z*
+
