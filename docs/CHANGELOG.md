@@ -435,3 +435,6 @@
 ### [Commit #27] - docs(readme): add comprehensive installation guide for Expo SDK 57
 *Timestamp: 2026-08-17T21:52:35.127Z*
 
+### [Commit #28] - docs(api): document audio synthesis buffer methods in audioService
+*Timestamp: 2026-08-17T21:53:20.524Z*
+
