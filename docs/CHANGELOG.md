@@ -57,3 +57,6 @@
 ### [Commit #19] - feat(export): add match results clipboard copy and WhatsApp sharing
 *Timestamp: 2026-08-17T19:05:16.134Z*
 
+### [Commit #20] - perf(startup): lazy load secondary screens and heavy asset bundles
+*Timestamp: 2026-08-17T19:06:16.486Z*
+
