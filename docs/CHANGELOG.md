@@ -297,3 +297,6 @@
 ### [Commit #99] - style(pills): add rounded segmented control pill for 3-mode selector
 *Timestamp: 2026-08-17T20:25:42.911Z*
 
+### [Commit #100] - perf(events): throttle touch move event emissions for smoother 60fps renders
+*Timestamp: 2026-08-17T20:26:43.241Z*
+
