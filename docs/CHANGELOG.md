@@ -360,3 +360,6 @@
 ### [Commit #2] - style(splash): calibrate multi-stop vignette opacity for OLED deep blacks
 *Timestamp: 2026-08-17T21:33:37.592Z*
 
+### [Commit #3] - perf(splash): pre-warm native graphics pipeline during intro reveal
+*Timestamp: 2026-08-17T21:34:23.106Z*
+
