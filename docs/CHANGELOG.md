@@ -306,3 +306,6 @@
 ### [Commit #102] - style(laser): optimize trailing laser beam stroke width and opacity curve
 *Timestamp: 2026-08-17T20:28:43.890Z*
 
+### [Commit #103] - feat(members): add member deletion with swipe-to-delete gesture
+*Timestamp: 2026-08-17T20:29:44.243Z*
+
