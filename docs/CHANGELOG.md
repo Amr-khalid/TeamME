@@ -294,3 +294,6 @@
 ### [Commit #98] - feat(locale): support instant language switching without app restart
 *Timestamp: 2026-08-17T20:24:42.596Z*
 
+### [Commit #99] - style(pills): add rounded segmented control pill for 3-mode selector
+*Timestamp: 2026-08-17T20:25:42.911Z*
+
