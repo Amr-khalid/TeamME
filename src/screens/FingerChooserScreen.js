@@ -26,6 +26,7 @@ import {
   ArrowLeft,
   Users,
   UserCheck,
+  Timer,
 } from 'lucide-react-native';
 
 const { width: SCREEN_WIDTH, height: SCREEN_HEIGHT } = Dimensions.get('window');
@@ -75,6 +76,7 @@ export function FingerChooserScreen() {
   const [mode, setMode] = useState('winners'); // 'winners' | 'pairs' | 'teams'
   const [winnersCount, setWinnersCount] = useState(1);
   const [teamsCount, setTeamsCount] = useState(2);
+  const [countdownDuration, setCountdownDuration] = useState(3); // 1, 2, 3, 5, 7, 10 seconds
 
   const [touches, setTouches] = useState([]);
   const [countdown, setCountdown] = useState(null);
@@ -172,7 +174,7 @@ export function FingerChooserScreen() {
 
     if (touches.length >= 2) {
       if (countdown === null) {
-        setCountdown(3);
+        setCountdown(countdownDuration);
         hapticsService.impactHeavy();
         audioService.playCharge();
       }
@@ -182,7 +184,7 @@ export function FingerChooserScreen() {
         setCountdown(null);
       }
     }
-  }, [touches.length, results, isScanning]);
+  }, [touches.length, results, isScanning, countdownDuration]);
 
   // Handle countdown interval
   useEffect(() => {
@@ -388,6 +390,17 @@ export function FingerChooserScreen() {
     } else if (mode === 'teams') {
       setTeamsCount((prev) => (prev >= 6 ? 2 : prev + 1));
     }
+  };
+
+  // Cycle countdown duration: 1s, 2s, 3s, 5s, 7s, 10s
+  const durationOptions = [1, 2, 3, 5, 7, 10];
+  const handleCycleDuration = () => {
+    hapticsService.impactLight();
+    setCountdownDuration((prev) => {
+      const idx = durationOptions.indexOf(prev);
+      const nextIdx = (idx + 1) % durationOptions.length;
+      return durationOptions[nextIdx];
+    });
   };
 
   // Pixel-Perfect Touch Coordinates Handler
@@ -606,39 +619,60 @@ export function FingerChooserScreen() {
           })}
         </View>
 
-        {/* Dynamic Count Switcher or Reset Button */}
-        {touches.length > 0 ? (
+        {/* Right Side Actions: Duration Selector & Count Switcher / Reset */}
+        <View style={styles.topRightActions}>
+          {/* Dynamic Countdown Duration Switcher */}
           <TouchableOpacity
-            onPress={resetArena}
+            activeOpacity={0.8}
+            onPress={handleCycleDuration}
             style={[
-              styles.resetCapsuleBtn,
+              styles.timerBadgePill,
               {
-                backgroundColor: 'rgba(239, 68, 68, 0.25)',
-                borderColor: 'rgba(239, 68, 68, 0.5)',
+                backgroundColor: isLightMode ? 'rgba(255, 255, 255, 0.52)' : 'rgba(15, 23, 42, 0.45)',
+                borderColor: isLightMode ? 'rgba(0, 0, 0, 0.08)' : `${activeTheme.accentColor}35`,
               },
             ]}
           >
-            <RefreshCw size={14} color="#f87171" />
+            <Timer size={13} color={activeTheme.accentColor} />
+            <Text style={[styles.timerBadgeText, { color: activeTheme.accentColor }]}>
+              {countdownDuration}s
+            </Text>
           </TouchableOpacity>
-        ) : (
-          mode !== 'pairs' && (
+
+          {/* Dynamic Count Switcher or Reset Button */}
+          {touches.length > 0 ? (
             <TouchableOpacity
-              activeOpacity={0.8}
-              onPress={handleCycleCount}
+              onPress={resetArena}
               style={[
-                styles.countBadgePill,
+                styles.resetCapsuleBtn,
                 {
-                  backgroundColor: isLightMode ? 'rgba(255, 255, 255, 0.52)' : 'rgba(15, 23, 42, 0.45)',
-                  borderColor: isLightMode ? 'rgba(0, 0, 0, 0.08)' : `${activeTheme.accentColor}35`,
+                  backgroundColor: 'rgba(239, 68, 68, 0.25)',
+                  borderColor: 'rgba(239, 68, 68, 0.5)',
                 },
               ]}
             >
-              <Text style={[styles.countBadgeText, { color: activeTheme.accentColor }]}>
-                {mode === 'winners' ? `👑 ${winnersCount}` : `⚔️ ${teamsCount}`}
-              </Text>
+              <RefreshCw size={14} color="#f87171" />
             </TouchableOpacity>
-          )
-        )}
+          ) : (
+            mode !== 'pairs' && (
+              <TouchableOpacity
+                activeOpacity={0.8}
+                onPress={handleCycleCount}
+                style={[
+                  styles.countBadgePill,
+                  {
+                    backgroundColor: isLightMode ? 'rgba(255, 255, 255, 0.52)' : 'rgba(15, 23, 42, 0.45)',
+                    borderColor: isLightMode ? 'rgba(0, 0, 0, 0.08)' : `${activeTheme.accentColor}35`,
+                  },
+                ]}
+              >
+                <Text style={[styles.countBadgeText, { color: activeTheme.accentColor }]}>
+                  {mode === 'winners' ? `👑 ${winnersCount}` : `⚔️ ${teamsCount}`}
+                </Text>
+              </TouchableOpacity>
+            )
+          )}
+        </View>
       </View>
 
       {/* 3. Pure Touch Arena Surface */}
@@ -957,7 +991,7 @@ export function FingerChooserScreen() {
                 <Crown size={22} color="#ffffff" fill="#e2e8f0" />
                 <Text style={[styles.winnerBannerTitle, { color: activeTheme.textPrimary }]}>
                   {mode === 'winners'
-                    ? (lang === 'ar' ? '👑 تتويج الفائز بالقرعة!' : '👑 Champion Crowned!')
+                    ? (lang === 'ar' ? '' : '👑 Champion Crowned!')
                     : mode === 'pairs'
                     ? (lang === 'ar' ? '⚔️ تم توزيع الثنائيات!' : '⚔️ Pairs Matched!')
                     : (lang === 'ar' ? '🛡️ تم تشكيل الفرق!' : '🛡️ Teams Formed!')}
@@ -968,7 +1002,6 @@ export function FingerChooserScreen() {
                 onPress={resetArena}
                 style={[styles.winnerRerollBtn, { backgroundColor: '#ffffff' }]}
               >
-                <RefreshCw size={13} color="#000000" />
                 <Text style={styles.winnerRerollBtnText}>
                   {lang === 'ar' ? 'إعادة' : 'Reset'}
                 </Text>
@@ -1046,6 +1079,24 @@ const styles = StyleSheet.create({
   },
   countBadgeText: {
     fontSize: 12.5,
+    fontWeight: '900',
+  },
+  topRightActions: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  timerBadgePill: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+    paddingVertical: 7,
+    paddingHorizontal: 8,
+    borderRadius: 12,
+    borderWidth: 1.2,
+  },
+  timerBadgeText: {
+    fontSize: 12,
     fontWeight: '900',
   },
   resetCapsuleBtn: {
