@@ -267,3 +267,6 @@
 ### [Commit #89] - style(particles): add floating sparkles and diamond dust to coronation screen
 *Timestamp: 2026-08-17T20:15:39.608Z*
 
+### [Commit #90] - refactor(constants): group mode palettes and node sizes into configuration object
+*Timestamp: 2026-08-17T20:16:39.962Z*
+
