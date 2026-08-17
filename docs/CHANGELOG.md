@@ -261,3 +261,6 @@
 ### [Commit #87] - style(winner): add continuous rotating sunburst light rays around winner
 *Timestamp: 2026-08-17T20:13:38.941Z*
 
+### [Commit #88] - feat(members): add player skill rating slider with dynamic color indicator
+*Timestamp: 2026-08-17T20:14:39.281Z*
+
