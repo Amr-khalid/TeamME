@@ -48,3 +48,6 @@
 ### [Commit #16] - feat(audio): enhance in-memory WAV audio synthesis buffer
 *Timestamp: 2026-08-17T19:02:15.157Z*
 
+### [Commit #17] - refactor(screens): decouple navigation dispatch from layout components
+*Timestamp: 2026-08-17T19:03:15.505Z*
+
