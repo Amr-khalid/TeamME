@@ -252,3 +252,6 @@
 ### [Commit #84] - style(typography): enhance Arabic font legibility with high letter spacing
 *Timestamp: 2026-08-17T20:10:37.966Z*
 
+### [Commit #85] - feat(bracket): add match winner auto-advance to next tournament round
+*Timestamp: 2026-08-17T20:11:38.280Z*
+
