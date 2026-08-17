@@ -291,3 +291,6 @@
 ### [Commit #97] - refactor(components): extract SmallTopNavbar layout into reusable component
 *Timestamp: 2026-08-17T20:23:42.259Z*
 
+### [Commit #98] - feat(locale): support instant language switching without app restart
+*Timestamp: 2026-08-17T20:24:42.596Z*
+
