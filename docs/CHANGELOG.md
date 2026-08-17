@@ -264,3 +264,6 @@
 ### [Commit #88] - feat(members): add player skill rating slider with dynamic color indicator
 *Timestamp: 2026-08-17T20:14:39.281Z*
 
+### [Commit #89] - style(particles): add floating sparkles and diamond dust to coronation screen
+*Timestamp: 2026-08-17T20:15:39.608Z*
+
