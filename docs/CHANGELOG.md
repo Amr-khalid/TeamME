@@ -60,3 +60,6 @@
 ### [Commit #20] - perf(startup): lazy load secondary screens and heavy asset bundles
 *Timestamp: 2026-08-17T19:06:16.486Z*
 
+### [Commit #21] - feat(history): persist draft rosters and tournament histories in AsyncStorage
+*Timestamp: 2026-08-17T19:07:16.819Z*
+
