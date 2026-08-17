@@ -444,3 +444,6 @@
 ### [Commit #30] - perf(audio): cache synthesized WAV waveforms in memory for zero-lag playback
 *Timestamp: 2026-08-17T21:54:51.385Z*
 
+### [Commit #31] - feat(haptics): calibrate impactHeavy and impactLight waveform patterns
+*Timestamp: 2026-08-17T21:55:36.816Z*
+
