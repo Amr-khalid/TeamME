@@ -471,3 +471,6 @@
 ### [Commit #39] - feat(locale): support instant language toggle between Arabic and English
 *Timestamp: 2026-08-17T22:01:40.772Z*
 
+### [Commit #40] - style(typography): optimize Arabic diacritics rendering with custom line heights
+*Timestamp: 2026-08-17T22:02:26.298Z*
+
