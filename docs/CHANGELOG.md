@@ -150,3 +150,6 @@
 ### [Commit #50] - perf(audio): cache synthesized base64 audio buffers in memory
 *Timestamp: 2026-08-17T19:36:26.631Z*
 
+### [Commit #51] - feat(history): add clear history vault and individual match deletion
+*Timestamp: 2026-08-17T19:37:26.947Z*
+
