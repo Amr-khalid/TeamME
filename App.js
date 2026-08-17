@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, StyleSheet, Platform } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { SafeAreaProvider, SafeAreaView } from 'react-native-safe-area-context';
@@ -9,6 +9,7 @@ import { AppDataProvider, useAppData } from './src/context/AppDataContext';
 
 import { SmallTopNavbar } from './src/components/layout/SmallTopNavbar';
 import { BottomTabNavigator } from './src/navigation/BottomTabNavigator';
+import { AppSplashScreen } from './src/components/common/AppSplashScreen';
 
 import { HomeScreen } from './src/screens/HomeScreen';
 import { MembersScreen } from './src/screens/MembersScreen';
@@ -60,12 +61,17 @@ function MainApp() {
 }
 
 export default function App() {
+  const [showSplash, setShowSplash] = useState(true);
+
   return (
     <SafeAreaProvider>
       <ThemeProvider>
         <LanguageProvider>
           <AppDataProvider>
             <MainApp />
+            {showSplash && (
+              <AppSplashScreen onFinish={() => setShowSplash(false)} />
+            )}
           </AppDataProvider>
         </LanguageProvider>
       </ThemeProvider>
@@ -83,3 +89,4 @@ const styles = StyleSheet.create({
     flex: 1,
   },
 });
+
