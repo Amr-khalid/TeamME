@@ -237,3 +237,6 @@
 ### [Commit #79] - feat(history): add match timestamp and player attendance log
 *Timestamp: 2026-08-17T20:05:36.275Z*
 
+### [Commit #80] - perf(layout): minimize layout thrashing by fixing container dimensions
+*Timestamp: 2026-08-17T20:06:36.614Z*
+
