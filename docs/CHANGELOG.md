@@ -366,3 +366,6 @@
 ### [Commit #4] - feat(finger): add immediate 1s countdown trigger for rapid tournament drafting
 *Timestamp: 2026-08-17T21:35:08.599Z*
 
+### [Commit #5] - style(finger): refine timer badge pill icon alignment with text baseline
+*Timestamp: 2026-08-17T21:35:54.071Z*
+
