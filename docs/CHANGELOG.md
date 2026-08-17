@@ -117,3 +117,6 @@
 ### [Commit #39] - feat(teams): add color-coded team energy wave grouping to finger arena
 *Timestamp: 2026-08-17T19:25:22.861Z*
 
+### [Commit #40] - docs(setup): add Expo SDK 52 setup and run instructions to documentation
+*Timestamp: 2026-08-17T19:26:23.190Z*
+
