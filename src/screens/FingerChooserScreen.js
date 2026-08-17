@@ -76,7 +76,7 @@ export function FingerChooserScreen() {
   const [mode, setMode] = useState('winners'); // 'winners' | 'pairs' | 'teams'
   const [winnersCount, setWinnersCount] = useState(1);
   const [teamsCount, setTeamsCount] = useState(2);
-  const [countdownDuration, setCountdownDuration] = useState(3); // 1, 2, 3, 5, 7, 10 seconds
+  const [countdownDuration, setCountdownDuration] = useState(1); // Default to 1 second
 
   const [touches, setTouches] = useState([]);
   const [countdown, setCountdown] = useState(null);
@@ -553,7 +553,7 @@ export function FingerChooserScreen() {
 
       {/* 2. Sleek Floating Top Control Capsule */}
       <View style={styles.topControlCapsule}>
-        {/* Back Button */}
+        {/* Back Button (Compact) */}
         <TouchableOpacity
           activeOpacity={0.75}
           onPress={() => {
@@ -569,9 +569,6 @@ export function FingerChooserScreen() {
           ]}
         >
           {isRTL ? <ArrowRight size={15} color={activeTheme.accentColor} /> : <ArrowLeft size={15} color={activeTheme.accentColor} />}
-          <Text style={[styles.cleanBackText, { color: activeTheme.textPrimary }]}>
-            {lang === 'ar' ? 'الرئيسية' : 'Home'}
-          </Text>
         </TouchableOpacity>
 
         {/* Minimalist 3-Mode Segmented Pill */}
@@ -602,7 +599,7 @@ export function FingerChooserScreen() {
                   },
                 ]}
               >
-                <Icon size={14} color={isSelected ? '#000000' : activeTheme.textSecondary} />
+                <Icon size={13} color={isSelected ? '#000000' : activeTheme.textSecondary} />
                 <Text
                   style={[
                     styles.modeSegmentLabel,
@@ -633,7 +630,7 @@ export function FingerChooserScreen() {
               },
             ]}
           >
-            <Timer size={13} color={activeTheme.accentColor} />
+            <Timer size={12} color={activeTheme.accentColor} />
             <Text style={[styles.timerBadgeText, { color: activeTheme.accentColor }]}>
               {countdownDuration}s
             </Text>
@@ -651,7 +648,7 @@ export function FingerChooserScreen() {
                 },
               ]}
             >
-              <RefreshCw size={14} color="#f87171" />
+              <RefreshCw size={13} color="#f87171" />
             </TouchableOpacity>
           ) : (
             mode !== 'pairs' && (
