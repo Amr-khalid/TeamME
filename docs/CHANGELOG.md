@@ -108,3 +108,6 @@
 ### [Commit #36] - feat(pairs): add dual-laser plasma connection arcs between paired fingers
 *Timestamp: 2026-08-17T19:22:21.835Z*
 
+### [Commit #37] - perf(haptics): debounce rapid trigger events to prevent vibration queue lag
+*Timestamp: 2026-08-17T19:23:22.164Z*
+
