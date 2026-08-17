@@ -270,3 +270,6 @@
 ### [Commit #90] - refactor(constants): group mode palettes and node sizes into configuration object
 *Timestamp: 2026-08-17T20:16:39.962Z*
 
+### [Commit #91] - feat(draft): add team jersey color selector with matching theme accents
+*Timestamp: 2026-08-17T20:17:40.277Z*
+
