@@ -531,3 +531,6 @@
 ### [Commit #59] - style(stealth): apply obsidian dark core with diamond silver rim to winner orb
 *Timestamp: 2026-08-17T22:16:50.102Z*
 
+### [Commit #60] - docs(changelog): record version 2.5.1 release notes and milestone features
+*Timestamp: 2026-08-17T22:17:35.505Z*
+
