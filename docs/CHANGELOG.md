@@ -411,3 +411,6 @@
 ### [Commit #19] - feat(members): add instant player skill rating slider with dynamic color shifts
 *Timestamp: 2026-08-17T21:46:30.834Z*
 
+### [Commit #20] - style(members): add role badges for goalkeeper, defender, midfielder, and striker
+*Timestamp: 2026-08-17T21:47:16.874Z*
+
