@@ -141,3 +141,6 @@
 ### [Commit #47] - refactor(theme): create unified theme token definitions for dark and light modes
 *Timestamp: 2026-08-17T19:33:25.644Z*
 
+### [Commit #48] - feat(members): add batch player import from text and CSV formats
+*Timestamp: 2026-08-17T19:34:25.961Z*
+
