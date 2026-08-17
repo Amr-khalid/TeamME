@@ -363,3 +363,6 @@
 ### [Commit #3] - perf(splash): pre-warm native graphics pipeline during intro reveal
 *Timestamp: 2026-08-17T21:34:23.106Z*
 
+### [Commit #4] - feat(finger): add immediate 1s countdown trigger for rapid tournament drafting
+*Timestamp: 2026-08-17T21:35:08.599Z*
+
