@@ -432,3 +432,6 @@
 ### [Commit #26] - style(settings): harmonize dark mode toggle with frosted glass container
 *Timestamp: 2026-08-17T21:51:49.616Z*
 
+### [Commit #27] - docs(readme): add comprehensive installation guide for Expo SDK 57
+*Timestamp: 2026-08-17T21:52:35.127Z*
+
